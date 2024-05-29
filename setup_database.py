@@ -40,12 +40,12 @@ def setup_database():
     cursor.execute('''
         INSERT INTO Parents (FirstName, LastName, Email, Password, PhoneNumber)
         VALUES 
-        ('mariam', 'madori', 'mariam.mad@gmail.com', 'mariam.1', '0032488888888')
+        ('mariam', 'ma', 'mariam@gmail.com', 'mariam.1', '0032488888888')
     ''')
 
     cursor.execute('''
         INSERT INTO Children (ParentID, FirstName, LastName, DateOfBirth)
-        VALUES (1, 'Hajar', 'elma', '2024-03-29')
+        VALUES (1, 'Hajar', 'elm', '2024-03-29')
     ''')
 
     cursor.execute('''
