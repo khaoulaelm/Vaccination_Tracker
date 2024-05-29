@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <h1>Home Page</h1>
+    <p>Welcome  {{ firstname }} !</p>
+    <a href="/tracker">View Vaccination Tracker</a><br>
+    <a href="/logout">Logout</a>
+</body>
+</html>
